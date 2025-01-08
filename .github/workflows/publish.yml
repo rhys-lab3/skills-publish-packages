@@ -31,3 +31,4 @@ jobs:
           context: .
           push: true
           tags: ${{ steps.meta.outputs.tags }}
+      # Add any other steps as required
